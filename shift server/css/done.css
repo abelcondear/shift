@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+/******* html *******/
+
+html *
+{
+	font-family: 'Lato', 'Verdana', 'Tahoma';
+}
+
+	/******* body *******/
+
+	body {
+		margin:0;
+		padding: 0;
+	}
+
+		/******* header section *******/
+		
+		div.header {
+			display: block;
+			height: 12.5em;
+			width: 100%;			
+			background-color: #269DBD;
+			background-image:url("../image/cover.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+			div.header span {
+				font-family: "Titillium Web", "Verdana", "Tahoma";
+				font-size: 4.9em;
+				color: #526e94;
+				margin-left: .7em;
+				position: relative;
+				top:.1em;
+			}
+		
+		/******* top section *******/
+
+		div.top {
+			display: block;
+			height: 6em;
+			width: 25em;		
+			/*border-bottom: .14em dotted #C4C4C4;*/
+			margin: auto;
+			margin-top: 1.1em;		
+			margin-bottom: .5em;		
+		}
+
+			div.top > span {
+				display: block;
+				color: #4B4B4B;
+				font-size: 1.15em;
+				padding: .35em;
+			}
+
+			div.top span:nth-child(2) {
+				display: block;
+				color: #20304E;
+				padding: .55em;
+				font-size: .84em;
+			}
+							
+		/******* buttons section *******/
+
+		div.buttons {
+			display: block;
+			width: 25em;
+			height: 5em;
+			padding-top: .8em;
+			text-align: center;
+			/*border-top: .14em dotted #C4C4C4;*/
+			margin: auto;
+			margin-top: .5em;
+			margin-bottom: 11.5em;
+		}
+				
+			div.buttons > button {
+				width: 12em;
+				height: 3em;								
+				border: none;
+				outline: none;
+				text-transform: uppercase;
+				color: #FFF;
+				box-shadow: 0 0 .4em #999;
+				cursor: pointer;
+				border-radius: 1.15em;
+				background-color: rgb(30, 169, 165);
+				transition: background 0.6s;
+				background-position: center;
+				background-image: radial-gradient(
+					circle,
+					transparent 1%,
+					rgb(0, 152, 148) 1%
+				);
+				background-size: 12000%;				
+			}
+						
+			div.buttons > button:active {
+				background-color: rgb(0, 152, 148, 0.32);
+				transition: background 0s;
+				background-size: 100%;
+			}
+			
+				div.buttons > button > label {
+					cursor: pointer;
+				}
+				
+		/******* footer section *******/
+		
+		div.footer {
+			display: block;
+			height: 3em;
+			width: 100%;			
+			/*background-color: #a7def8;*/
+			background-color: #F0F7FA;
+			clear: both;
+			bottom: 0;
+			margin-top: 3.7em;			
+		}
+		
+			div.footer div.left-side {
+				display: block;
+				height: 100%;
+				width: 50%;
+				/*background-color:yellow;*/
+				float: left;
+			}
+			
+				div.footer div.left-side span {
+					font-family: "Noticia Text", "Verdana", "Tahoma";
+					font-size: .9em;
+					position: relative;
+					top: 1.2em;
+					left: 1.4em;					
+				}
+			
+			div.footer div.right-side {
+				display: block;
+				height: 100%;
+				width: 50%;
+				/*background-color:yellow;*/				
+				float: right;
+			}
+				
+				div.footer div.right-side div {
+					display: block;					
+					width: 1.74em;
+					height: 1.74em;
+					float: right;
+				}
+				
+				div.footer div.right-side div.sm-facebook {
+					background: url(../image/facebook.png) no-repeat;
+					background-size: contain;
+					margin-left: .5em;
+					margin-top: .64em;
+					cursor: pointer;
+				}
+				
+				div.footer div.right-side div.sm-instagram {
+					background: url(../image/instagram.png) no-repeat;					
+					background-size: contain;
+					margin-left: .5em;
+					margin-top: .64em;
+					cursor: pointer;
+				}
+
+				div.footer div.right-side div.sm-twitter {
+					background: url(../image/twitter.png) no-repeat;					
+					background-size: contain;
+					margin-left: .5em;
+					margin-top: .64em;
+					cursor: pointer;
+				}
+				
+				div.footer div.right-side div.sm-googleplus {
+					background: url(../image/googleplus.png) no-repeat;
+					background-size: contain;
+					margin-left: .5em;
+					margin-right: 1.5em;
+					margin-top: .64em;
+					cursor: pointer;
+				}
+

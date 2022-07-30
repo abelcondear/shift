@@ -1,0 +1,19 @@
+{{attendee-gender}} {{attendee-name}},
+
+Te confirmamos el turno con el profesional {{organizer-gender}} {{organizer-name}} el día {{weekday-label}} {{day}} de {{month-label}} - {{hour}} {{meridiem}}.
+Dirección del consultorio: {{location}}
+
+
+
+{{organizer-gender}} {{organizer-name}} ha reservado su tiempo para atenderte. Te solicitamos que en caso de no poder asistir, lo canceles con el mayor tiempo posible para que otra persona pueda utilizarlo.
+Es importante que sepas que muchos Profesionales ejercen su derecho a cobrar sus honorarios si no cancelas el turno con una mínima antelación.
+
+
+
+Si no has solicitado este turno y crees que tu cuenta de Turnos ha sido comprometida, por favor, contacta con el soporte de Turnos escribiendo a contacto@turnos.com
+
+
+
+
+Gracias.
+El equipo de Turnos.

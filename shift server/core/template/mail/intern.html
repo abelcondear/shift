@@ -1,0 +1,83 @@
+<html>
+<body style="margin:1.5em">
+<table border="0" cellpadding="20" cellspacing="0" width="100%">
+<tr bgcolor="#2196F3">
+	<td align="center" width="15%" style="padding:1.17em;" bgcolor="#1b69a6">
+		<img src="{{content-id}}" border="0">
+		<!-- <img src="../../../image/calendar.png" border="0"> -->
+	</td>
+	<td align="center" width="85%" style="padding:1.17em;">	
+		<strong>
+			<font face="Calibri" style="font-size:1.94em;position:relative;left:-1%;">
+				{{attendee-gender}} {{attendee-name}} ha solicitado un turno
+			</font>
+		</strong>
+	</td>
+</tr>
+<tr bgcolor="#F5F5F5" style="border-bottom-right-radius:.5em;border-bottom-left-radius:.5em;">
+	<td colspan="2" style="padding:2.64em;border:.3em solid #E6E6E6;">
+		<center>
+			<strong>
+				<font face="Calibri" style="font-size:1.4em;" color="#000000">
+					{{intern-gender}} {{intern-name}}
+				</font>
+			</strong>
+		</center>
+		<br/><br/>
+		<font face="Calibri" style="font-size:1em;" color="#000000">
+			El paciente <strong>{{attendee-gender}} {{attendee-name}}</strong> ha 
+			solicitado un turno con usted para el 
+			día {{weekday-label}} {{day}} de {{month-label}} - {{hour}} {{meridiem}}.			
+			<br/>
+			Dirección del consultorio: {{location}}
+			<br/><br/><br/>
+			<form action="{{ics-file}}" target="_blank">
+				<input type="submit" name="btn_download" value="Descargar Calendar" 
+				style="border-radius:.4em;padding:.5em;border:.07em solid #757570;font:1em Calibri;width:10.4em;">
+			</form>
+			<br/><br/>
+			<font face="Calibri" style="font-size:.94em;">
+				Debido a que estamos atravesando un momento de emergencia sanitaria, le pedimos que:<br/> 
+				1- Si usted regresó de viaje de alguno de los países con circulación activa de COVID-19
+				en los últimos 14 días, DEBE permanecer en su domicilio hasta cumplir la cuarentena 
+				estipulada por el Gobierno. Cancele el turno.<br/> 
+				2- Si es que convive con alguna persona que haya viajado, por más que usted 
+				no lo haya hecho. DEBERÁ permanecer en su domicilio y NO CONCURRIR A LA CONSULTA.<br/> 
+				3- Para minimizar la alta circulación de pacientes en el consulturio evite concurrir
+				con acompañantes, para respetar el aislamiento social.<br/>			
+				4- Si tiene fiebre, tos o dolor de garganta cancele su cita y comuníquese al 148 			 
+				en provincia de Buenos Aires, al 107 en Ciudad Autónoma de Buenos Aires y 
+				en el resto del país al 0800-222-1002.<br/>
+			</font>	
+			<br/><br/><br/><br/>
+		</font>				
+		<font face="Calibri" style="font-size:1em;" color="#000000">
+			<br/><br/><br/><br/><br/>
+			Gracias.
+			<br/>	
+			El equipo de Turnos.
+		</font>
+	</td>
+</tr>
+</table>
+<br/><br/>
+<font face="Calibri" style="font-size:1em;" color="#000000">
+	Turnos.com
+	<br/><br/><br/><br/>
+	<br/><br/>
+</font>
+<center>
+	<font face="Calibri" style="font-size:.92em;" color="#000000">
+		La información contenida en este mensaje y en cualquier archivo anexo al mismo, es privada, 
+		estrictamente confidencial y para uso exclusivo de sus destinatarios.
+		<br/>
+		Conforme con la legislación vigente está prohibida la divulgación de datos, su cesión y 
+		su uso sin autorización.
+		<br/><br/>
+		(Ley de Confidencialidad 24.766 y Ley de Habeas Data 25.326). Si hubiera recibido este 
+		mensaje por error, no distribuya el contenido y/o anexos, borre el mensaje de su sistema 
+		e informe al emisor.		 
+	</font>
+</center>
+</body>
+</html>

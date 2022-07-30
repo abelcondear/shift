@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Entrega de Turnos</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/index.css">	
+</head>
+<body>
+<div class="header">
+	<span>Turnos online</span>
+</div>	
+<div class="top">	
+	<span>Elige un turno</span>
+	<span>	
+	Se muestran inicialmente los primeros turnos disponibles para la especialidad que elijas. 
+	Si preferis un profesional en particular o elegir la fecha y el horario que más te convengan, 
+	hacé click en el botón de "Encontrá un turno".
+	</span>
+</div>
+<div class="form">	
+	<ol>
+		<ul class="professional">
+			<li>Profesional</li>
+			<li>
+				<select id="cmb_professional">
+				<option value="">------- Seleccione -------</option>	
+				<option value="00">Pediatría</option>
+				<option value="00">Otorrino</option>
+				<option value="00">Infectología</option>
+				<option value="00">Ginecología</option>
+				<option value="00">Flebología</option>
+				<option value="00">Cardiología</option>					
+				</select>
+			</li>	
+		</ul>
+		<ul class="shift-range">	
+			<li>Rango horario</li>
+			<li>
+				<select id="cmb_range_a">
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>				
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>					
+				</select>				
+				<select id="cmb_range_b">
+				<option value="06">06</option>
+				<option value="07">07</option>
+				<option value="08">08</option>
+				<option value="09">09</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>				
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				</select>		
+			</li>	
+		</ul>
+		<ul class="selected-day">	
+			<li>Día preferido</li>
+			<li>
+				<input type="radio" id="optDayNameAll" name="opt_dayname" value="Any" checked>
+				<label for="optDayNameAll">Todos</label>
+				<input type="radio" id="optDayNameMon" name="opt_dayname" value="Monday">
+				<label for="optDayNameMon">Lun</label>
+				<input type="radio" id="optDayNameTue" name="opt_dayname" value="Tuesday">
+				<label for="optDayNameTue">Mar</label>
+				<br />
+				<input type="radio" id="optDayNameWen" name="opt_dayname" value="Wednesday">
+				<label for="optDayNameWen">Mie</label>
+				<input type="radio" id="optDayNameThu" name="opt_dayname" value="Thursday">
+				<label for="optDayNameThu">Jue</label>
+				<input type="radio" id="optDayNameFri" name="opt_dayname" value="Friday">
+				<label for="optDayNameFri">Vie</label>
+				<br />
+				<input type="radio" id="optDayNameSat" name="opt_dayname" value="Saturday">
+				<label for="optDayNameSat">Sab</label>
+				<input type="radio" id="optDayNameSun" name="opt_dayname" value="Sunday">
+				<label for="optDayNameSun">Dom</label>
+			</li>
+		</ul>
+		<ul class="since-day">
+			<li>A partir del día</li>
+			<li><input id="txt_date" type="text" size="15" value=""></li>
+		</ul>
+	</ol>	
+</div>
+<div class="buttons">	
+	<button><label>Encontrá un turno</label></button>	
+</div>
+<div class="bottom">	
+	<div class="title hidden">
+		<span>Elige un turno</span>
+	</div>
+	<div class="no-person hidden">
+		<span>No se han encontrado turnos para la búsqueda solicitada.</span>
+	</div>		
+	<div class="person hidden">				
+	</div>	
+</div>
+<div class="footer">
+	<div class="left-side">
+		<span>
+			Copyright &copy; 2020 Turnos.com - Todos los derechos reservados
+		</span>
+	</div>
+	<div class="right-side">
+		<a href="#" target="_new"><div class="sm-googleplus"></div></a>
+		<a href="#" target="_new"><div class="sm-twitter"></div></a>
+		<a href="#" target="_new"><div class="sm-instagram"></div></a>		
+		<a href="#" target="_new"><div class="sm-facebook"></div></a>
+	</div>	
+</div>
+<script src="js/lib/AjaxRequest.js"></script>
+<script src="js/lib/Client.js"></script>
+<script src="js/lib/Utils.js"></script>
+<script src="js/lib/Enum.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

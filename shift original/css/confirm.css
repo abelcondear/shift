@@ -1,0 +1,361 @@
+@charset "UTF-8";
+
+/******* html *******/
+
+html *
+{
+	font-family: 'Lato', 'Verdana', 'Tahoma';
+}
+
+	/******* body *******/
+
+	body {
+		margin:0;
+		padding: 0;
+	}
+
+		/******* header section *******/
+		
+		div.header {
+			display: block;
+			height: 12.5em;
+			width: 100%;			
+			background-color: #269DBD;
+			background-image:url("../image/cover.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		
+			div.header span {
+				font-family: "Titillium Web", "Verdana", "Tahoma";
+				font-size: 4.9em;
+				color: #526e94;
+				margin-left: .7em;
+				position: relative;
+				top:.1em;
+			}
+		
+		/******* top section *******/
+
+		div.top {
+			display: block;
+			width: 24em;
+			height: auto;
+			margin: auto;
+			/*background-color: yellow;*/
+		}
+
+			div.top > div.title {
+				display: block;
+				padding-top: 1.5em;
+				padding-bottom: 0;
+				padding-left: 1em;
+			}
+
+				div.top > div.title > span {
+					font-size: 1.09em;
+					color: #4B4B4B;
+					/*font-weight: 500;*/
+				}
+
+			div.top div.person {
+				display: block;
+				width: 22.9em;
+				height: 9em;
+				margin: auto;							
+			}
+
+				div.top div.person ol {
+					display: block;
+					width: inherit;
+					height: 8.7em;				
+					padding: .15em;
+					float: left;
+					border: .1em solid #E3E3E3;
+					background-color: #63AAC9;
+					border-radius: .45em;
+					-webkit-box-shadow: .4em .5em .9em .19 rgba(0,0,0,.15);
+					-moz-box-shadow: .4em .5em .9em .19 rgba(0,0,0,.15);
+					box-shadow: .4em .5em .9em .19em rgba(0,0,0,.15);						
+				}
+
+					div.top div.person ol:first-child,
+					div.top div.person ol:nth-child(4),
+					div.top div.person ol:nth-child(7) {
+						margin-left: .9em;
+					}
+
+					div.top div.person ol {
+						margin-left: 1.4em;
+					}
+
+						div.top div.person ul.photo {
+							display: block;
+							width: 5em;
+							height: 5.2em;
+							list-style: none;
+							padding: .35em;
+							float: left;
+						}
+
+						div.top div.person ul.data {
+							width: 16.5em;
+							height: 5.2em;					
+							list-style: none;
+							padding: .35em;
+							float: left;
+						}
+
+							div.top div.person ul.data li {
+								display: block;						
+							}
+
+								div.top div.person ul.data li label {
+									font-size: .74em;
+									color: #FFF;
+								}
+
+								div.top div.person ul.data li:nth-child(1) label {									
+									font-weight: 300;
+								}
+
+								div.top div.person ul.data li:nth-child(2) label {
+									font-weight: 300;
+								}
+
+								div.top div.person ul.data li:nth-child(3) label {
+									font-weight: 500;
+								}
+
+								div.top div.person ul.data li:nth-child(4) label,
+								div.top div.person ul.data li:nth-child(5) label {
+									font-weight: normal;
+								}
+
+		/******* middle section *******/
+		/*
+		div.middle {
+			display: block;
+			width: 27em;
+			height: auto;	
+			margin: auto;
+			clear: both;
+		}
+
+			div.middle ul.icons {
+				display: block;
+				width: 2em;
+				height: 6em;
+				list-style: none;
+				padding-top: .5em;
+				padding-left: .6em;
+				padding-right: 1.5em;
+				float: left;
+			}
+
+				div.middle ul.icons li {	
+					width: inherit;
+					height: 3em;	
+				}
+
+			div.middle ul.text {
+				display: block;	
+				width: 16em;
+				height: 6em;
+				padding-top: .5em;
+				list-style: none;	
+				float: left;
+				padding-left: 0;
+			}
+
+				div.middle ul.text li {
+					width: inherit;
+					height: 3em;	
+				}
+
+				div.middle ul.text li:hover,
+				div.middle ul.text li:hover label {
+					color: #FFF;
+					cursor: pointer;
+					border-radius: .4em;										
+					border: none;
+					outline: none;
+					cursor: pointer;
+					background-color: rgb(23, 57, 100);
+					transition: background 0.6s;
+					background-position: center;
+					background-image: radial-gradient(
+						circle,
+						transparent 1%,
+						rgb(71, 99, 135) 1%
+					);
+					background-size: 12000%;						
+				}
+				
+				div.middle ul.text li:hover:active {
+					background-color: rgb(71, 99, 135, 0.32);
+					transition: background 0s;
+					background-size: 100%;				
+				}
+				
+					div.middle ul.text li label {
+						position: relative;
+						top: .75em;
+						left: 4em;
+						font-size: .8em;
+						font-weight: 600;
+						color: #2082B1;
+						text-transform: uppercase;
+					}
+
+			div.middle ul.button {
+				display: block;	
+				width: 1em;
+				height: 6em;
+				padding-top: .5em;
+				list-style: none;	
+				float: left;
+			}
+
+				div.middle ul.button li {
+					width: inherit;
+					height: 3em;	
+				}
+
+					div.middle ul.button li > img {
+						position: relative;
+						left: -1.4em;
+						top: .35em;
+					}
+		*/
+		
+		/******* bottom section *******/
+
+		div.bottom {
+			display: block;
+			width: 24em;
+			height: 4em;	
+			margin: auto;
+			text-align: center;	
+			clear: both;
+			/*background-color: red;*/
+			/*padding: .15em;*/
+			margin-bottom: 7.8em;
+		}
+
+			div.bottom > button {
+				width: 12em;
+				height: 3em;							
+				margin-top: 2em;
+				border: none;
+				outline: none;
+				text-transform: uppercase;
+				color: #FFF;
+				box-shadow: 0 0 .4em #999;
+				cursor: pointer;
+				border-radius: 1.15em;
+				background-color: rgb(30, 169, 165);
+				transition: background 0.6s;
+				background-position: center;
+				background-image: radial-gradient(
+					circle,
+					transparent 1%,
+					rgb(0, 152, 148) 1%
+				);
+				background-size: 12000%;	
+			}
+						
+			div.bottom > button:active {
+				background-color: rgb(0, 152, 148, 0.32);
+				transition: background 0s;
+				background-size: 100%;
+			}
+
+			div.bottom > button:nth-child(1) {
+				margin-left: 3.15em;
+			}
+						
+			div.bottom > button:nth-child(2) {
+				margin-left: 1em;
+			}
+			
+				div.bottom > button > label {
+					cursor: pointer;
+				}
+									
+		/******* footer section *******/
+		
+		div.footer {
+			display: block;
+			height: 3em;
+			width: 100%;			
+			/*background-color: #a7def8;*/
+			background-color: #F0F7FA;
+			clear: both;
+			bottom: 0;
+			margin-top: 3.7em;			
+		}
+		
+			div.footer div.left-side {
+				display: block;
+				height: 100%;
+				width: 50%;
+				/*background-color:yellow;*/
+				float: left;
+			}
+			
+				div.footer div.left-side span {
+					font-family: "Noticia Text", "Verdana", "Tahoma";
+					font-size: .9em;
+					position: relative;
+					top: 1.2em;
+					left: 1.4em;					
+				}
+			
+			div.footer div.right-side {
+				display: block;
+				height: 100%;
+				width: 50%;
+				/*background-color:yellow;*/				
+				float: right;
+			}
+				
+				div.footer div.right-side div {
+					display: block;					
+					width: 1.74em;
+					height: 1.74em;
+					float: right;
+				}
+				
+				div.footer div.right-side div.sm-facebook {
+					background: url(../image/facebook.png) no-repeat;
+					background-size: contain;
+					margin-left: .5em;
+					margin-top: .64em;
+					cursor: pointer;
+				}
+				
+				div.footer div.right-side div.sm-instagram {
+					background: url(../image/instagram.png) no-repeat;					
+					background-size: contain;
+					margin-left: .5em;
+					margin-top: .64em;
+					cursor: pointer;
+				}
+
+				div.footer div.right-side div.sm-twitter {
+					background: url(../image/twitter.png) no-repeat;					
+					background-size: contain;
+					margin-left: .5em;
+					margin-top: .64em;
+					cursor: pointer;
+				}
+				
+				div.footer div.right-side div.sm-googleplus {
+					background: url(../image/googleplus.png) no-repeat;
+					background-size: contain;
+					margin-left: .5em;
+					margin-right: 1.5em;
+					margin-top: .64em;
+					cursor: pointer;
+				}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin : Entrega de Turnos</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/list_intern.css">	
+</head>
+<body>
+	<div class="top">	
+	<span>Listado de Internos</span>
+	<span>Utilicé el filtro de búsqueda si desea encontrar algún registro específico.</span>
+</div>
+<div class="form">	
+	<ol>
+		<ul>
+			<li>Campo</li>
+			<li>Búsqueda</li>
+		</ul>
+		<ul>
+			<li>
+				<select id="cmb_fieldname">
+				<option value="">------- Seleccione -------</option>
+				<option value="name">Nombre</option>
+				<option value="surname">Apellido</option>
+				<option value="email">Email</option>
+				<option value="username">Usuario</option>
+				<option value="active">Activo</option>
+				</select>	
+			</li>
+			<li><input id="txt_search1" type="text" maxlength="100" value=""></li>
+		</ul>
+		<ul>
+			<li>
+				<select id="cmb_fieldname">
+				<option value="">------- Seleccione -------</option>
+				<option value="name">Nombre</option>
+				<option value="surname">Apellido</option>
+				<option value="email">Email</option>
+				<option value="username">Usuario</option>
+				<option value="active">Activo</option>
+				</select>				
+			</li>
+			<li><input id="txt_search2" type="text" maxlength="100" value=""></li>
+		</ul>															
+	</ol>	
+</div>	
+<div class="buttons">
+	<button><label>Buscar</label></button>	
+	<button><label>Reiniciar</label></button>	
+</div>
+<div id="list" class="bottom">
+	<ol>
+		<ul>
+			<li>Nombre</li>
+			<li>Apellido</li>
+			<li>Email</li>
+			<li>Usuario</li>
+			<li>Activo</li>
+		</ul>
+	</ol>		
+</div>
+<script src="js/lib/AjaxRequest.js"></script>
+<script src="js/lib/List.js"></script>	
+<script src="js/list_intern.js"></script>
+</body>
+</html>

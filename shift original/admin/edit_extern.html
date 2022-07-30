@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin : Entrega de Turnos</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/edit_extern.css">	
+</head>
+<body>
+<div class="top">	
+	<span>Edición de Externo</span>
+	<span>Edite los campos del formulario.</span>
+</div>
+<div class="form">	
+	<ol>
+		<ul>
+			<li>Nombre</li>
+			<li><input id="txt_name" type="text" maxlength="10" value=""></li>
+		</ul>
+		<ul>
+			<li>Apellido</li>
+			<li><input id="txt_surname" type="text" maxlength="100" value=""></li>
+		</ul>
+		<ul>
+			<li>DNI</li>
+			<li><input id="txt_cardid" type="text" maxlength="100" value="" disabled></li>
+		</ul>
+		<ul>
+			<li>Email</li>
+			<li><input id="txt_email" type="text" maxlength="100" value=""></li>
+		</ul>
+		<ul>
+			<li>Teléfono</li>
+			<li><input id="txt_phone" type="text" maxlength="50" value=""></li>
+		</ul>
+		<ul>
+			<li>Activo</li>
+			<li><input type="checkbox" name="chk_active" /></li>
+		</ul>		
+	</ol>	
+</div>	
+<div class="buttons">
+	<button><label>Guardar</label></button>	
+	<button><label>Cancelar</label></button>	
+</div>	
+<script src="js/edit_extern.js"></script>
+</body>
+</html>

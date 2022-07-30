@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+@media screen and (max-device-width: 360px)  and (max-device-height: 640px)  {
+
+		/******* top section *******/
+
+		div.top {
+			width: 91%;		
+			height: 14em;
+			margin-top: .5em;		
+			margin-bottom: .5em;	
+		}
+				
+			div.top > span {
+				font-size: 2em;
+			}
+
+			div.top span:nth-child(2) {
+				font-size: 1.79em;
+			}
+			
+		/******* form section *******/
+					
+		div.form {
+			width: 90%;
+			height: 59.4em;
+		}
+
+			div.form ol {
+				width: 85%;
+				height: inherit;
+			}
+			
+					div.form ol ul > li {
+						font-size: 2.64em;
+					}
+
+						div.form ol ul li input[type="text"] {
+							font-size: 1.89em;
+							width: 13.5em;							
+						}
+
+						div.form ol ul li select {
+							font-size: 1.89em;
+						}
+					
+					div.form ol ul > li:nth-child(2) {
+						width: 100%;
+						margin-top: .19em;
+						font-size: 1.54em;
+					}	
+					
+					div.form ol ul:nth-child(4) > li:nth-child(2) > br {
+						display: block;
+					}
+					
+						div.form ol ul:nth-child(4) > li:nth-child(2) > input[type="radio"] {
+							width: 2.54em;
+							height: 1.5em;
+							background-color: white;
+						}
+						
+						div.form ol ul:nth-child(4) > li:nth-child(2) > label {
+							width: 2.75em;
+							display: inline-block;
+							font-size: 1.79em;
+							padding-right: 1em;
+						}
+										
+					div.form ol ul:nth-child(4) > li:nth-child(2) > 
+					input[name="optDayName"] 
+					~ input[name="optDayName"] 
+					~ input[name="optDayName"] 
+					~ input[name="optDayName"] 
+					{
+						padding-top: .35em;
+					}
+
+					div.form ol ul:nth-child(4) > li:nth-child(2) > 
+					input[name="optDayName"] 
+					~ input[name="optDayName"] 
+					~ input[name="optDayName"] 
+					~ input[name="optDayName"] 
+					~ label
+					{
+						padding-top: .35em;
+					}
+					
+		/******* buttons section *******/
+							
+		div.buttons {
+			width: 91%;
+			height: 7em;
+			margin-top: 1em;
+			margin-bottom: -1.9em;						
+		}
+				
+			div.buttons > button {
+				width: 15.4em;
+				height: 4em;								
+				font-size: 1.34em;
+			}
+
+		/******* bottom section *******/
+		
+		div.bottom {
+			width: 67.4%;
+			clear: both;
+			margin: auto;
+			margin-top: 2.4em;			
+		}
+
+			div.bottom > div.title {
+				font-size: 2.4em;
+				width: 94%;
+			}
+
+			div.bottom div.person {
+				width: 95%;
+			}
+	
+				div.bottom div.person ol {
+					width: 37.5em;
+					height: 12em;
+					margin: auto !important;				
+					margin-top: 2.5em !important;
+					border: .2em solid rgb(0, 0, 0, .19);
+				}
+
+				div.bottom div.person ol:nth-child(4) {
+					margin-bottom: 2.5em !important;
+				}
+				
+						div.bottom div.person ul.photo {
+							width: 5.5em;
+							height: 11.19em;
+						}
+
+						div.bottom div.person ul.data {
+							width: 27.4em;							
+							height: 11.19em;
+						}
+	
+								div.bottom div.person ul.data li label {
+									font-size: 2.1em;
+									width: 7em;
+								}
+
+						div.bottom div.person ul.button {
+							width: 2.5em;
+							height: 11.19em;				
+							float: left;
+						}
+
+								div.bottom div.person ul.button li > img {
+									width: 1.5em;
+									height: 1.75em;
+									top: 4.5em;
+								}
+								
+}

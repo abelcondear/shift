@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin : Entrega de Turnos</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/edit_shift_intern.css">	
+</head>
+<body>
+<div class="top">	
+	<span>Edición de Turno disponible</span>
+	<span>Edite los campos del formulario.</span>
+</div>
+<div class="form">	
+	<ol>
+		<ul>
+			<li>Interno</li>
+			<li><input id="txt_intern" type="text" value="" disabled /></li>
+		</ul>
+		<ul>
+			<li>Especialidad</li>
+			<li>
+				<select id="cmb_speciality" disabled>
+				<option value="">Pediatría</option>
+				<option value="">Otorrino</option>				
+				<option value="">Infectología</option>
+				<option value="">Ginecología</option>
+				<option value="">Flebología</option>
+				<option value="">Cardiología</option>
+				</select>				
+			</li>
+		</ul>	
+		<ul>
+			<li>
+				<ul>
+					<li>Día</li>
+					<li>				
+						<select id="cmb_dayname">
+						<option value="">------- Seleccione -------</option>
+						<option value="">Lunes</option>
+						<option value="">Martes</option>				
+						<option value="">Miércoles</option>
+						<option value="">Jueves</option>
+						<option value="">Viernes</option>
+						<option value="">Sábado</option>
+						<option value="">Domingo</option>
+						</select>				
+					</li>
+				</ul>
+				<ul>
+					<li>Desde</li>
+					<li><input id="txt_timeon" type="text" maxlength="50" value="" /></li>			
+				</ul>
+				<ul>
+					<li>Hasta</li>
+					<li><input id="txt_timeoff" type="text" maxlength="50" value="" /></li>
+				</ul>
+				<ul>
+					<li>+</li>
+					<li>-</li>	
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>Activo</li>
+			<li><input type="checkbox" name="chk_active" /></li>
+		</ul>		
+	</ol>	
+</div>	
+<div class="buttons">
+	<button><label>Guardar</label></button>	
+	<button><label>Cancelar</label></button>	
+</div>		
+<script src="js/edit_shift_intern.js"></script>
+</body>
+</html>

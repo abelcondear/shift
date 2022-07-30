@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin : Entrega de Turnos</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/edit_shift_extern.css">	
+</head>
+<body>
+<div class="top">	
+	<span>Edición de Turno</span>
+	<span>Edite los campos del formulario.</span>
+</div>
+<div class="form">	
+	<ol>
+		<ul>
+			<li>Interno</li>
+			<li><input id="txt_intern" type="text" value="" disabled /></li>
+		</ul>
+		<ul>
+			<li>Externo</li>
+			<li><input id="txt_extern" type="text" value="" disabled /></li>
+		</ul>	
+		<ul>
+			<li>Turno</li>
+			<li><input id="txt_meeting" type="text" maxlength="50" value="" /></li>
+		</ul>
+		<ul>
+			<li>Confirmado</li>
+			<li><input id="chk_confirm" type="checkbox" value="0" /></li>
+		</ul>
+		<ul>			
+			<li>Activo</li>
+			<li><input id="chk_active" type="checkbox" value="1" /></li>			
+		</ul>
+	</ol>	
+</div>	
+<div class="buttons">
+	<button><label>Guardar</label></button>	
+	<button><label>Cancelar</label></button>	
+</div>	
+<script src="js/edit_shift_extern.js"></script>
+</body>
+</html>

@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+/******* html *******/
+
+html *
+{
+	font-family: 'Lato', 'Verdana', 'Tahoma';
+}
+
+	/******* body *******/
+
+	body {
+		margin:0;
+		padding: 0;
+		background-color: #F1F3F6;
+	}
+
+		/******* top section *******/
+
+		div.top {
+			display: block;
+			height: 4.5em;
+			width: 24em;		
+			border-bottom: .14em dotted #C4C4C4;
+			margin: auto;
+			margin-top: 1.1em;		
+			margin-bottom: .45em;		
+		}
+
+			div.top > span {
+				display: block;
+				color: #4B4B4B;
+				font-size: 1.15em;
+				padding: .35em;
+			}
+
+			div.top span:nth-child(2) {
+				display: block;
+				color: #20304E;
+				padding: .55em;
+				font-size: .82em;
+			}
+
+		/******* form section *******/
+
+		div.form {
+			display: block;
+			height: 6.8em;
+			width: 23.4em;
+			background-color: #63AAC9;
+			margin: auto;	
+			border-radius: .45em;
+			padding-top: .75em;				
+			-webkit-box-shadow: .4em .5em .9em .19 rgba(0,0,0,.15);
+			-moz-box-shadow: .4em .5em .9em .19 rgba(0,0,0,.15);
+			box-shadow: .4em .5em .9em .19em rgba(0,0,0,.15);				
+		}
+
+			div.form ol {
+				display: block;
+				height: 15em;
+				margin: auto;		
+				padding: 0;	
+			}
+
+				div.form ol ul {
+					display: block;
+					float: left;
+					clear: both;
+					width: auto;
+					padding: .35em;
+				}
+
+					div.form ol ul > li {
+						display: block;
+						float: left;
+						width: 7em;
+						font-size: .8em;
+						font-weight: 500;
+					}
+					
+					div.form ol ul li:nth-child(1){
+						padding-top: 1em;
+						padding-left: 2em;
+					}
+
+					div.form ol ul li:nth-child(2){
+						padding-top: .4em;
+					}
+					
+					div.form ol ul li:nth-child(2) {
+						display: block;
+						float: left;
+						width: 20em;
+						font-size: .74em;
+						font-weight: normal;
+						padding-left: .4em;						
+					}
+												
+						div.form ol ul li input[type="text"] {
+							font-size: 1.1em;
+							border-radius: .49em;
+							padding: .34em;
+							border: .14em solid #C2C0C0;
+							width: 16.4em;							
+						}
+												
+		/******* buttons section *******/
+
+		div.buttons {
+			display: block;
+			width: 23.4em;
+			height: 6em;
+			padding-top: .8em;
+			text-align: center;
+			border-top: .14em dotted #C4C4C4;
+			margin: auto;
+			margin-top: .5em;
+			margin-bottom: -1.9em;
+		}
+				
+			div.buttons > button {
+				width: 11em;
+				height: 3em;								
+				border: none;
+				outline: none;
+				text-transform: uppercase;
+				color: #FFF;
+				box-shadow: 0 0 .4em #999;
+				cursor: pointer;
+				border-radius: 1.15em;
+				background-color: rgb(30, 169, 165);
+				transition: background 0.6s;
+				background-position: center;
+				background-image: radial-gradient(
+					circle,
+					transparent 1%,
+					rgb(0, 152, 148) 1%
+				);
+				background-size: 12000%;				
+			}
+			
+			div.buttons > button:nth-child(2) {
+				margin-left: .95em;
+			}
+			
+			div.buttons > button:active {
+				background-color: rgb(0, 152, 148, 0.32);
+				transition: background 0s;
+				background-size: 100%;
+			}
+
+				div.buttons > button > label {
+						cursor: pointer;
+				}

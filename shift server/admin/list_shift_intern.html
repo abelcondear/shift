@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin : Entrega de Turnos</title>
+<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/list_shift_intern.css">	
+</head>
+<body>
+<div class="top">	
+	<span>Listado de Turnos disponibles</span>
+	<span>Complete los datos del formulario para registrarse al sistema.</span>
+</div>
+<div class="form">	
+	<ol>
+		<ul>
+			<li>Campo</li>
+			<li>Búsqueda</li>
+		</ul>
+		<ul>
+			<li>
+				<select id="cmb_fieldname">					
+				<option value="">------- Seleccione -------</option>	
+				<option value="intern">Interno</option>
+				<option value="speciality">Especialidad</option>									
+				<option value="dayname">Día</option>
+				<option value="timeon">Hora Desde</option>			
+				<option value="timeoff">Hora Hasta</option>
+				</select>
+			</li>
+			<li><input id="txt_search1" type="text" maxlength="100" value=""></li>
+		</ul>
+		<ul>
+			<li>
+				<select id="cmb_fieldname">
+				<option value="">------- Seleccione -------</option>				
+				<option value="intern">Interno</option>
+				<option value="speciality">Especialidad</option>									
+				<option value="dayname">Día</option>
+				<option value="timeon">Hora Desde</option>			
+				<option value="timeoff">Hora Hasta</option>
+				</select>				
+			</li>
+			<li><input id="txt_search2" type="text" maxlength="100" value=""></li>
+		</ul>															
+	</ol>	
+</div>	
+<div class="buttons">
+	<button><label>Buscar</label></button>	
+	<button><label>Reiniciar</label></button>	
+</div>
+<div id="list" class="bottom">
+	<ol>
+		<ul>
+			<li>Interno</li>
+			<li>Especialidad</li>
+			<li>Día</li>
+			<li>Hora Desde</li>
+			<li>Hora Hasta</li>
+		</ul>
+	</ol>		
+</div>
+<script src="js/lib/AjaxRequest.js"></script>
+<script src="js/lib/List.js"></script>			
+<script src="js/list_shift_intern.js"></script>
+</body>
+</html>
